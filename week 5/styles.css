@@ -78,15 +78,16 @@ body{
     width: 90%;
 }
 
-.our services{
-    text-align: center;   
-}
-
-
-.our services h1{
+.ourservices h1 {
     color: #666d89;
-    
+    padding-top: 40px;
 }
+
+.ourservices p {
+    color: #666d89;
+}
+
+
 
 
     
