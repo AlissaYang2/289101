@@ -12,28 +12,83 @@ body{
 .header {
     background-color: #F4C2C2;
     color: white;
-    height: 100px;
+    height: 180px;
     border-bottom: 6px solid #fcdede;
 }
 
-    
 .name {
     padding-top: 10px;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
     font-family: 'Alex Brush';
 }
 
-#nav {
+
+#links {
     font-size: 1rem;
+    color: #fcdede;
     text-align: center;
-    color: #F4C2C2;
 }
 
-#nav a{
-    color: black;
+#links a{
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+#contact {
+    background-color: #F06C64;
+    border-bottom: 6px solid #EA676B;
+    color: #F0D8D9;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#contact .centered {
+    margin: auto;
+    max-width: 950px;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: 68% auto;
+    padding-top: 1em;
+}
+
+#contact form h2 {
+    margin-top: 0
+}
+
+#contact form p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+    margin-bottom: 2.5em;
+}
+
+#contact input,
+#contact textarea {
+    background-color: #D6564F;
+    border: none;
+    border-radius: 6px;
+    color: #EC7E7E;
+    font-size: 0.7em;
+    margin: 0.7em 0;
+    padding: 1em;
+    width: 90%;
+}
+
+
+
+
+
 
