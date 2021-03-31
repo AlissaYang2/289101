@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
 
 body{
     background-color: #F2F2F2;
@@ -10,17 +10,12 @@ body{
 }
 
 .header {
-    background-color: #F4C2C2;
+    background-color: #f9d0cf;
     color: white;
-    height: 180px;
+    height: 20px;
+    padding-top: 20px;
+    Padding-bottom: 20px;
     border-bottom: 6px solid #fcdede;
-}
-
-.name {
-    padding-top: 10px;
-    font-size: 6rem;
-    text-align: center;
-    font-family: 'Alex Brush';
 }
 
 #links {
@@ -37,30 +32,29 @@ body{
 }
 
 .home{
-    color: orangered;
-    background-color: yellow;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    
+    background-color: white;
 }
 
+.Alissa {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .about{
-    color: blue;
-    background-color: #fff2f2;
+    color: #bbbec3;
+    background-color: #faf3f1;
     text-align: center;
     padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-bottom: 20px;
     margin-top: auto;
 
 }
 
 #abo {
-    font-family: 'Alex Brush'
+    color: #a7a9ac;
 }
 
 #abo p{
@@ -68,20 +62,102 @@ body{
 }
 
 .work{
-    background-color: pink;
+    background-color: #eedbcc;
+    color: white;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #wor{
-    font-family: 'Alex Brush'; 
-    margin-top: auto;
+    color: white;
 }
 
-.gallery a {
+.gallery {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right; 40px;
+    text-align: center;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left:20px;
-    padding-right: 20px;
+}
+
+.gallery div {
+    margin-bottom: 60px;
+}
+
+#con{
+    color: #80909a;
+}
+
+.contact {
+    background-color: #d4c6bd;
+    border-bottom: 6px soild #fff2f2;
+    color: #8e8586;
+    line-height: 2rem;
+    padding: 40px 20px;
+    padding-bottom: 50px
+}
+
+.contact p{
+    text-align: center;
+}
+
+.contact #con {
+    margin: auto;
+    max-width: 950px;
+    text-align: center;
+    color:#767071
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 68% auto;
+    padding-top: 20px;
+}
+
+.contact form h2 {
+    text-align:center;
+    margin-top: 0;
+    color:#767071
+}
+
+.contact form p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #f9efea ;
+    border: 1px;
+    border-radius: 6px;
+    color: #8e8586;
+    font-size: 1rem;
+    margin: 5px 0;
+    padding: .5rem;
+    width: 90%;
+}
+
+.footer {
+    color: #dfdbd8;
+    background-color: #8f8883;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 65% auto;
+    text-align: center;
+    margin: auto;
+}
+
+.footer .social {
+    margin-top: -15px;
+    text-align: right;
+    padding-right: 40px;    
 }
 
 
