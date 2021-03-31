@@ -50,7 +50,6 @@ body{
     padding-right: 60px;
     padding-bottom: 20px;
     margin-top: auto;
-
 }
 
 #abo {
@@ -92,15 +91,15 @@ body{
 
 .contact {
     background-color: #d4c6bd;
-    border-bottom: 6px soild #fff2f2;
     color: #8e8586;
     line-height: 2rem;
     padding: 40px 20px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .contact p{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .contact #con {
@@ -111,32 +110,33 @@ body{
 }
 
 .contact form {
-    display: grid;
-    grid-template-columns: 68% auto;
     padding-top: 20px;
+    text-align: center;
 }
 
 .contact form h2 {
     text-align:center;
     margin-top: 0;
-    color:#767071
+    color:#8e8586;
+        
 }
 
 .contact form p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: .8rem;
+    line-height: 1.1rem;
+    margin-top: 0;
 }
 
 .contact input,
 .contact textarea {
     background-color: #f9efea ;
     border: 1px;
-    border-radius: 6px;
+    border-radius: 12px;
     color: #8e8586;
     font-size: 1rem;
     margin: 5px 0;
     padding: .5rem;
-    width: 90%;
+    width: 50%;
 }
 
 .footer {
@@ -152,6 +152,7 @@ body{
     grid-template-columns: 65% auto;
     text-align: center;
     margin: auto;
+    border-bottom: 6px solid #9e9893;
 }
 
 .footer .social {
