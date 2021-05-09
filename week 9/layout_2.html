@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Layout 2</title>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" href="css/bootstrap.min.css" />
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    <style>
+        * { outline: white 8px solid }
+        
+        .blue {
+            background-color: #3FB4FF;
+            height: 100px
+        }
+        .green{
+            background-color: #a6d800;
+            height: 100px
+        }     
+        
+        .orange{
+            background-color: #ffae2e;
+            height: 600px
+        }
+        
+        .grey{
+            background-color: #c4c4c4;
+            height: 250px;
+            max-width: 250px
+        }
+        
+        .red{
+            background-color: #B03551;
+            height: 400px
+        }
+        
+        .pink{
+            background-color: #DF87DE;
+            height: 250px;
+        }
+        
+        body { background-color: red }
+        
+        @media (min-width: 576px) {
+        body { background-color: orange}
+        }
+        
+        @media (min-width: 768px) {
+        body { background-color: yellow}
+        }
+        
+        @media (min-width: 992px) {
+        body { background-color: green}
+        }
+        
+        @media (min-width: 1200px) {
+        body { background-color: blue}
+        }
+        
+             
+    </style>
+    </head>       
+    
+    
+    <body>
+        <div class="container">
+            
+        <div class="row">
+            <div class="col-xl blue"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xl green"></div>
+            <div class="row-lg-6 green"></div>
+        </div>
+               
+        <div class="row">
+            <div class="col-sm-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div> 
+            <div class="col-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div> 
+
+            
+            <div class="col-sm-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div> 
+            <div class="col-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div>     
+            
+            <div class="col-sm-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div>    
+            <div class="col-6 grey"></div>
+            <div class="col-6 col-md-block col-lg-8 pink"></div> 
+            
+
+
+        <div class="col-md-12 red"></div>
+
+        
+
+        </div>   
+
+        </div>
+    
+    </body>
+</html>    
