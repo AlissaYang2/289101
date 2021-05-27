@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+    
+body{
+    background-color: #F2F2F2;
+    margin: 0;
+    font-family: 'Roboto';
+
+}
+    
+    html, body {
+    scroll-behavior: smooth;
+    }
+    
+.logo {
+    background-color: #E0B0A6;
+    height: 180px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header {
+    position: sticky;
+    z-index: 2;
+    background-color: #E0B0A6;
+    height: 40px;
+    padding-top: 20px;
+    Padding-bottom: 50px;
+    border-bottom: 6px solid #F0C6BD;
+    top: 0;
+}
+
+
+.header li{
+    display: inline-block;
+
+}
+
+#links {
+    font-size: 1.1rem;
+    color: #A4B6BF;
+    text-align: center;
+}
+
+#links a{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+#links a:hover{
+    color: #638399;
+}
+
+.about{
+    position: relative;
+    z-index: 1;
+    color: #202433;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+#abo {
+    
+    color: #202433;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+
+#background{
+    position: absolute;
+    z-index: -1;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.method{
+    color: #273636;
+    background-color: #D7DDDE;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#met {
+    color: #273636;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+#met p{
+    padding-left: 40px;
+    
+}
+
+.method h2{
+    font-size: 1.5rem;
+}
+
+.products{
+    color: #3D4A4A;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#pro {
+    color: #3D4A4A;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+#pro p{
+    padding-left: 40px;
+    
+}
+
+.productimgs{
+    color: black;
+    text-align: center;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.products h2{
+    font-size: 1.5rem;
+}
+
+.row{
+    padding-top: 50px;
+}
+
+.gallery{
+    background-color: #A4B6BF;
+    color: #2C314A;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gal {
+    color: #2C314A;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+.galleryimg {
+    margin: 0;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    
+    
+}
+
+.gallery h2{
+    font-size: 1.6rem
+}
+
+#con{
+    color: #80909a;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #829BA8;
+    color: #E6E6E8;
+    line-height: 2rem;
+}
+
+.contact p{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.contact #con {
+    margin: auto;
+    max-width: 950px;
+    text-align: center;
+    color: white;
+    font-family: 'cookie';
+    font-size: 3rem;
+}
+
+.contact h2 {
+    font-size: 1.6rem;
+    text-align:center;
+    margin-top: 0;
+    color: white;
+        
+}
+
+.contactinfo{
+    color: #E6E6E8;
+    margin-bottom: 0;
+}
+
+.contact .social{
+    margin-top: 0;
+    text-align: center; 
+}
+
+.contact .social img{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.contact form {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact form p {
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.contact input,
+.contact textarea {
+    background-color: white ;
+    border: 1px;
+    border-radius: 20px;
+    color: #829BA8;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    margin: 3px 0;
+    padding: .5rem;
+    width: 50%;
+}
+
+.footer {
+    color: white;
+    background-color: #57798F;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;    
+    display: grid;
+    grid-template-columns: 75% auto;
+    text-align: center;
+    margin: auto;
+    border-bottom: 6px solid #638399;
+}
+
+.footer .top {
+    margin-top: -30px;
+    padding-right: 70px;
+    font-size: 3rem;
+}
+
+
+.top a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%)
+
+}
+
+
